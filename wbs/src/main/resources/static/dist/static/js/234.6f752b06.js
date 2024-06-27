@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmenu"]=self["webpackChunkmenu"]||[]).push([[234],{5234:function(e,n,u){u.r(n),u.d(n,{default:function(){return s}});var r=u(6768);function t(e,n,u,t,c,o){const a=(0,r.g2)("router-view");return(0,r.uX)(),(0,r.Wv)(a)}var c={name:"StockRoute"},o=u(1241);const a=(0,o.A)(c,[["render",t]]);var s=a}}]);
+//# sourceMappingURL=234.6f752b06.js.map

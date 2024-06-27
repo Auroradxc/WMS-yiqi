@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wcsb.wbs.mapper.SupplementMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wcsb.wbs.domain.Supplement">
+        <id column="id" property="id" />
+        <id column="sup_id" property="supId" />
+        <id column="supplier" property="supplier" />
+        <result column="sup_name" property="supName" />
+        <result column="creator" property="creator" />
+        <result column="updator" property="updator" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sup_id, sup_name, supplier, creator, updator, create_time, update_time
+    </sql>
+
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wcsb.wbs.mapper.BarCodeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wcsb.wbs.domain.BarCode">
+        <id column="id" property="id" />
+        <id column="bar_num" property="barNum" />
+        <result column="sup_id" property="supId" />
+        <result column="supplier" property="supplier" />
+        <result column="status" property="status" />
+        <result column="wrap_size" property="wrapSize" />
+        <result column="num_contained" property="numContained" />
+        <result column="creator" property="creator" />
+        <result column="updator" property="updator" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, sup_id, supplier, bar_num, status, wrap_size, num_contained, creator, updator, create_time, update_time
+    </sql>
+
+</mapper>

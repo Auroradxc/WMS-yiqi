@@ -1,0 +1,17 @@
+# server
+server:
+  port: 8000
+
+# mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://97.64.20.181:3306/wbs0603?serverTimeZone=UTC
+    username: root
+    password: 123456
+
+# mybatis_plus
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
